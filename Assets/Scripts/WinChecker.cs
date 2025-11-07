@@ -51,9 +51,13 @@ public class WinChecker : MonoBehaviour
                 {
                     SceneManager.LoadScene("DemoLevel 1");
                 }
-                if (SceneManager.GetActiveScene().name == "DemoLevel")
+                if (SceneManager.GetActiveScene().name == "DemoLevel 1")
                 {
-                    SceneManager.LoadScene("DemoLevel 1");
+                    SceneManager.LoadScene("DemoLevel 2");
+                }
+                if (SceneManager.GetActiveScene().name == "DemoLevel 2")
+                {
+                    SceneManager.LoadScene("Start Menu");
                 }
             }
         }
